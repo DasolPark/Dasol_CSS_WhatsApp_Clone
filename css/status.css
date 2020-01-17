@@ -1,17 +1,103 @@
-.status-bar__status {
+.main__status {
+  height: 70vh;
+  background-color: #f2f2f7;
+}
+
+.main__status-update {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 25px;
-  font-weight: 600;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  border-top: 1px solid #cbcace;
+  border-bottom: 1px solid #cbcace;
 }
 
-.status-bar__column {
+.main__status-column {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   align-items: center;
 }
 
-.status-bar__column i {
-  margin-right: 5px;
+.main__myStatus-text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.main__status-avatar i {
+  font-size: 3.5rem;
+  opacity: 0.2;
+  margin-right: 10px;
+}
+
+.main__status-avatar {
+  position: relative;
+}
+
+.main__status-avatar-plus-icon {
+  position: absolute;
+  top: 36px;
+  right: 8px;
+  width: 18px;
+  height: 18px;
+  color: #f2f2f7;
+  background-color: #007cfe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.main__myStatus-text .main__myStatus-title {
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.main__myStatus-text .main__myStatus-subTitle {
+  color: #8e8d91;
+  font-size: 0.8rem;
+}
+
+.main__status-column:nth-last-child(1) {
+  font-size: 0.9rem;
+  margin-right: 15px;
+  color: #007cfe;
+}
+
+.main__status-column .photo {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #ededfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__status-column .write-status {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ededfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__no-recent-msg {
+  padding: 15px 50px;
+  background-color: #ffffff;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: #8e8d91;
+  border-top: 1px solid #cbcace;
+  border-bottom: 1px solid #cbcace;
 }

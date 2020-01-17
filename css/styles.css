@@ -8,6 +8,7 @@
 @import 'status.css';
 @import 'calls.css';
 @import 'chats.css';
+@import 'chat.css';
 @import 'settings.css';
 
 body {
@@ -15,5 +16,10 @@ body {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
   background-color: #f7f7f7;
-  padding: 12px 15px;
+  padding: 12px 0px;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
 }

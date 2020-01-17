@@ -1,13 +1,65 @@
+.header {
+  padding: 0px 15px;
+  border-bottom: 1px solid #d4d4d6;
+  padding-bottom: 15px;
+}
+
+.functions__allBlue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.functions__black-blue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__column,
 .header__column a {
   color: #007cfe;
   margin-bottom: 20px;
 }
 
+.newChat {
+  font-size: 1.5rem;
+}
+
 .header__title {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 15px;
+}
+
+.header__title-newCall {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #000000;
+  padding-left: 45px;
+}
+
+.header__options {
+  border: 1px solid #007cfe;
+  padding: 5px 20px;
+  padding-left: 0px;
+  border-radius: 7px;
+  font-size: 0.7rem;
+}
+
+.header__option:nth-child(1) {
+  padding: 4px 30px;
+  background-color: #007cfe;
+  color: #f2f2f7;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-left: 0px;
+}
+
+.header__option:nth-child(2) {
+  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .header__search-bar {
@@ -19,12 +71,12 @@
   width: 99%;
   border: none;
   border-radius: 7px;
-  padding: 8px 5px;
+  padding: 9px 5px;
 }
 
 .header__search-icon-text {
   position: absolute;
-  top: 8px;
+  top: 9px;
   left: 10px;
   color: #818286;
 }
