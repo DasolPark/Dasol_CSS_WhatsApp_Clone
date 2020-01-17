@@ -1,0 +1,34 @@
+.header__column,
+.header__column a {
+  color: #007cfe;
+  margin-bottom: 20px;
+}
+
+.header__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.header__search-bar {
+  position: relative;
+}
+
+.header__search-bar input {
+  background-color: #eaeaeb;
+  width: 99%;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 5px;
+}
+
+.header__search-icon-text {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: #818286;
+}
+
+.header__search-icon-text i {
+  margin-right: 5px;
+}

@@ -1,0 +1,17 @@
+.status-bar__status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.status-bar__column {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.status-bar__column i {
+  margin-right: 5px;
+}
