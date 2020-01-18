@@ -27,10 +27,7 @@
 .main__calls-list-column .avatar {
   color: #cbcacd;
   font-size: 2.5rem;
-}
-
-.main__calls-text {
-  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .main__calls-text .main__calls-number {
@@ -45,7 +42,7 @@
 }
 
 .main__calls-text .main__calls-outInText i {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .main__calls-text .main__calls-outInText span {
