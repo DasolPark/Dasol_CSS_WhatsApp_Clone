@@ -55,11 +55,15 @@
   background-color: #ffffff;
 }
 
+.chats__list-link:active {
+  color: #007cfe;
+}
+
 .chats__list {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 5px 15px;
+  padding: 5px 15px 0px 15px;
 }
 
 .chats__list-column:nth-child(1) i {

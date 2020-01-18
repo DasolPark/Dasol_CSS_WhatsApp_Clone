@@ -6,13 +6,13 @@
 
 ### CSS
 - [X] Status
-- [ ] Calls
-- [ ] Chats
-- [ ] Settings
 - [ ] Status - Status_type a state
-- [ ] Calls - Add call
+- [X] Calls
+- [X] Calls - New call
 - [ ] Calls - Edit call
+- [X] Chats
 - [ ] Chats - chat
+- [ ] Settings
 - [ ] Settings - Edit profile
 - [ ] Intro
 

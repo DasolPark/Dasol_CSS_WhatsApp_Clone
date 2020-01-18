@@ -1,0 +1,97 @@
+.header__chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cbcacd;
+  padding-bottom: 5px;
+}
+
+.header__chat-column {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header__chat-column .chat-to-chats-link {
+  font-size: 1.8rem;
+  color: #007cfe;
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+.header__chat-column .chat__avatar-number-desc {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.chat__avatar-number-desc img {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.chat__number-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__number-desc span:nth-child(1) {
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.chat__number-desc span:nth-child(2) {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.header__chat-column:nth-child(2) i {
+  margin-right: 20px;
+  color: #007cfe;
+}
+
+/* 다시 생각해보자 */
+.chat__write-area {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 15px 20px 10px;
+  border-top: 1px solid #cbcacd;
+}
+
+.chat__write-area i,
+.chat__input-wrapper span {
+  color: #007cfe;
+}
+
+.chat__input-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+
+.chat__input-wrapper span {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-right: 10px;
+}
+
+.chat__input-wrapper input {
+  background-color: #eaeaeb;
+  width: 99%;
+  border: none;
+  border-radius: 7px;
+  padding: 9px 100px 9px 5px;
+  margin-right: 5px;
+}
+
+.chat__input-wrapper i {
+  position: absolute;
+  right: 10px;
+}
