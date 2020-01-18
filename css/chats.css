@@ -1,0 +1,130 @@
+.main__chats {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+}
+
+.chats__archived-chats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  border-bottom: 1px solid #d5d5d8;
+}
+
+.archived-chats__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.archived-chats__column:nth-child(1) i {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  border-radius: 50%;
+  color: #007cfe;
+  background-color: #ededfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.archived-chats__column:nth-child(1) span {
+  color: #007cfe;
+  font-weight: 400;
+}
+
+.archived-chats__column:nth-child(2) {
+  color: #cbcacde8;
+}
+
+.archived-chats__column span {
+  color: #939296;
+  margin-right: 12px;
+}
+
+.chats__broadcast-lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #d5d5d8;
+  color: #007cfe;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+.chats__list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.chats__list-column:nth-child(1) i {
+  color: #cbcacd;
+  font-size: 3.2rem;
+  margin-right: 12px;
+}
+
+.chats__list-column:nth-child(1) img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chats__list-column:nth-child(1) .chats-users-icon {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #cbcacd;
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chats__list-column:nth-child(2) {
+  width: 100%;
+  border-bottom: 1px solid #cbcace;
+}
+
+.chats__name-and-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.chats__name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.chats__date {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.chats__preview {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.chats__preview i {
+  color: #007cfe;
+}
+
+.chats__prev-text {
+  opacity: 0.6;
+}

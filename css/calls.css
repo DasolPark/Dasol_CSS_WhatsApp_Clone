@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #d4d4d6;
+  background-color: #ffffff;
 }
 
 .main__calls-list-column {
@@ -31,7 +32,7 @@
 }
 
 .main__calls-text .main__calls-number {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 3px;
 }
