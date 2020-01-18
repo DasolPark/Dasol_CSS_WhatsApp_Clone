@@ -19,7 +19,6 @@
 }
 
 .nav__list-link {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,6 +33,7 @@
 .nav__list-icon {
   padding-bottom: 5px;
   font-size: 1.3rem;
+  position: relative;
 }
 
 .nav__list-text {
@@ -52,6 +52,6 @@
   font-size: 0.7rem;
   background-color: #ff3a30;
   color: #ffffff;
-  right: 16px;
-  top: -8px;
+  right: -10px;
+  top: -7px;
 }

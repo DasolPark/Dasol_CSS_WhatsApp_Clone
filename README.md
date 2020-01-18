@@ -1,9 +1,10 @@
 # WhatsApp Design Clone for responsive web design
 - CSS3(Responsive Web Design)
+- Simple JavaScript
 
 # Goals
 
-- [ ] Status
+- [X] Status
 - [ ] Calls
 - [ ] Chats
 - [ ] Settings
