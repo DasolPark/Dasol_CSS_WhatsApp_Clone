@@ -1,0 +1,71 @@
+.main__calls {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80vh;
+}
+
+.main__calls-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d4d4d6;
+}
+
+.main__calls-list-column {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 15px;
+}
+
+.main__calls-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__calls-list-column .avatar {
+  color: #cbcacd;
+  font-size: 2.5rem;
+}
+
+.main__calls-text {
+  margin-left: 12px;
+}
+
+.main__calls-text .main__calls-number {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.main__calls-text .main__calls-outInText {
+  font-weight: 600;
+  opacity: 0.4;
+}
+
+.main__calls-text .main__calls-outInText i {
+  font-size: 0.6rem;
+}
+
+.main__calls-text .main__calls-outInText span {
+  font-size: 0.8rem;
+}
+
+.main__calls-date-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__calls-date-info span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.4;
+  margin-right: 8px;
+}
+
+.main__calls-date-info i {
+  font-size: 1.3rem;
+  color: #007cfe;
+}
