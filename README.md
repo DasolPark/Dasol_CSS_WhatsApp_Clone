@@ -4,6 +4,7 @@
 
 # Goals
 
+### CSS
 - [X] Status
 - [ ] Calls
 - [ ] Chats
@@ -14,3 +15,8 @@
 - [ ] Chats - chat
 - [ ] Settings - Edit profile
 - [ ] Intro
+
+### JavaScript
+- [ ] Current Time
+- [ ] Hilight Navigation
+- [ ] Add Message

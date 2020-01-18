@@ -74,6 +74,14 @@
   padding: 9px 5px;
 }
 
+.header__search-bar input:focus {
+  outline: none;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  box-shadow: 0 0 2pt 1pt #d4d4d6;
+}
+
 .header__search-icon-text {
   position: absolute;
   top: 9px;
