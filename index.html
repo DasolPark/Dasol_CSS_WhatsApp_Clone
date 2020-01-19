@@ -4,17 +4,180 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Welcome to WhatsApp Clone!</title>
+    <title>Chats</title>
+    <script
+      src="https://kit.fontawesome.com/ffd5c274b7.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body class="body__index">
-    <div class="welcomeMsg">
-      <span class="welcomeMsgText">Welcome to WhatsApp Clone!</br></span>
-      <span class="welcomeMsgIcon">
-        <a href="status.html">
-          🙌
-        </a>
-      </span>
+  <body>
+    <div class="status-bar__status">
+      <div class="status-bar__column">21:16</div>
+      <div class="status-bar__column">
+        <div class="status-bar__signal"><i class="fas fa-signal"></i></i></div>
+        <div class="status-bar__wifi"><i class="fas fa-wifi"></i></div>
+        <div class="status-bar__battery"><i class="fas fa-battery-full"></i></div>
+      </div>
     </div>
+    <header class="header">
+      <div class="header__functions functions__allBlue">
+        <div class="header__column">Edit</div>
+        <div class="header__column newChat"><i class="fas fa-pen-square"></i></div>
+      </div>
+      <div class="header__title">Chats</div>
+      <div class="header__search-bar">
+        <input type="text">
+        <div class="header__search-icon-text">
+          <i class="fas fa-search"></i><span>Search</span>
+        </div>
+      </div>
+    </header>
+    <main class="main__chats">
+      <div class="chats__archived-chats">
+        <div class="archived-chats__column">
+          <i class="fas fa-users"></i>
+          <span>Archived Chats</span>
+        </div>
+        <div class="archived-chats__column">
+          <span>0</span>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        </div>
+      </div>
+      <div class="chats__broadcast-lists">
+        <div class="broadcast-lists__column">
+          <span>Broadcast Lists</span>
+        </div>
+        <div class="broadcast-lists__column">
+          <span>New Group</span>
+        </div>
+        </div>
+      </div>
+      <ul class="chats__lists">
+        <a href="chat.html" class="chats__list-link">
+          <li class="chats__list">
+            <div class="chats__list-column">
+              <img src="images/golden.jpg" alt="avatar">
+            </div>
+            <div class="chats__list-column">
+              <div class="chats__name-and-date">
+                <div class="chats__name">Golden</div>
+                <div class="chats__date">2020/01/01</div>
+              </div>
+              <div class="chats__preview">
+                <span><i class="fas fa-check-double"></i></span>
+                <span class="chats__prev-text">Had a perfect picture in my head With you in the most beautiful dress</span></div>
+            </div>
+          </li>
+        </a>
+        <li class="chats__list">
+          <div class="chats__list-column">
+            <img src="images/aladdin.jpg" alt="avatar">
+          </div>
+          <div class="chats__list-column">
+            <div class="chats__name-and-date">
+              <div class="chats__name">Aladdin</div>
+              <div class="chats__date">2020/01/02</div>
+            </div>
+            <div class="chats__preview">
+              <span class="chats__prev-text">A whole new world!</span></div>
+          </div>
+        </li>
+        <li class="chats__list">
+          <div class="chats__list-column">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="chats__list-column">
+            <div class="chats__name-and-date">
+              <div class="chats__name">Céline Dion</div>
+              <div class="chats__date">2020/01/07</div>
+            </div>
+            <div class="chats__preview">
+              <span><i class="fas fa-check-double"></i></span>
+              <span class="chats__prev-text">My heart will go on</span></div>
+          </div>
+        </li>
+        <li class="chats__list">
+          <div class="chats__list-column">
+            <i class="fas fa-users chats-users-icon"></i>
+          </div>
+          <div class="chats__list-column">
+            <div class="chats__name-and-date">
+              <div class="chats__name">Lorem</div>
+              <div class="chats__date">2020/01/01</div>
+            </div>
+            <div class="chats__preview">
+              <span class="chats__prev-text">Lorem ipsum dolor sit amet consectetur adipisicing elit...</span></div>
+          </div>
+        </li>
+        <li class="chats__list">
+          <div class="chats__list-column">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="chats__list-column">
+            <div class="chats__name-and-date">
+              <div class="chats__name">David</div>
+              <div class="chats__date">2020/01/01</div>
+            </div>
+            <div class="chats__preview">
+              <span><i class="fas fa-check-double"></i></span>
+              <span class="chats__prev-text">Happy new year!</span></div>
+          </div>
+        </li>
+        <li class="chats__list">
+          <div class="chats__list-column">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="chats__list-column">
+            <div class="chats__name-and-date">
+              <div class="chats__name">David</div>
+              <div class="chats__date">2020/01/01</div>
+            </div>
+            <div class="chats__preview">
+              <span><i class="fas fa-check-double"></i></span>
+              <span class="chats__prev-text">Happy new year!</span></div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__lists">
+        <li class="nav__list">
+          <a href="status.html" class="nav__list-link">
+            <div class="nav__list-icon">
+              <i class="far fa-user-circle"></i>
+            </div>
+            <div class="nav__list-text">Status</div></li>
+          </a>
+        <li class="nav__list">
+          <a href="calls.html" class="nav__list-link">
+            <div class="nav__list-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="nav__list-text">Calls</div>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="#" class="nav__list-link">
+            <div class="nav__list-icon"><i class="fas fa-camera-retro"></i></div>
+            <div class="nav__list-text">Camera</div>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__list-icon" style="color:#007cfe"><i class="far fa-comments"></i></div>
+            <div class="nav__list-text" style="color:#007cfe">Chats</div>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="settings.html" class="nav__list-link">
+            <div class="nav__list-icon">
+              <i class="fas fa-cog"></i>
+              <div class="nav__list-new">1</div>
+            </div>
+            <div class="nav__list-text">Settings</div>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

@@ -24,3 +24,5 @@ body {
 a {
   text-decoration: none;
 }
+
+/* @media all and (minwidth: 375px){} */
