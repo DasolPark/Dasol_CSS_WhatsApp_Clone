@@ -11,7 +11,7 @@
 - [X] Calls - New call
 - [ ] Calls - Edit call
 - [X] Chats
-- [ ] Chats - chat
+- [X] Chats - chat
 - [ ] Settings
 - [ ] Settings - Edit profile
 - [ ] Intro

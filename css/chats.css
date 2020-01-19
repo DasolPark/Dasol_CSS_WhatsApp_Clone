@@ -55,8 +55,9 @@
   background-color: #ffffff;
 }
 
-.chats__list-link:active {
-  color: #007cfe;
+.chats__list-link {
+  all: unset;
+  cursor: pointer;
 }
 
 .chats__list {
