@@ -91,6 +91,10 @@
   margin-bottom: 10px;
 }
 
+.main__chat-date {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
 .chat-list-right__wrapper {
   padding: 5px;
   background-color: #dcf8c5;

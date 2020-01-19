@@ -6,17 +6,15 @@
 
 ### CSS
 - [X] Status
-- [ ] Status - Status_type a state
 - [X] Calls
 - [X] Calls - New call
 - [ ] Calls - Edit call
 - [X] Chats
 - [X] Chats - chat
-- [ ] Settings
-- [ ] Settings - Edit profile
+- [X] Settings
 - [ ] Intro
 
 ### JavaScript
 - [ ] Current Time
-- [ ] Hilight Navigation
 - [ ] Add Message
+- [ ] Calls - Edit call(Delete call)

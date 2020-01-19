@@ -126,7 +126,8 @@
   padding-bottom: 20px;
 }
 
-.chats__preview i {
+.chats__preview i,
+.fa-check-double {
   color: #007cfe;
 }
 

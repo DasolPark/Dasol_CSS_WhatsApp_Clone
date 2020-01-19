@@ -55,10 +55,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
+  height: 35px;
   padding: 0px 10px;
   background-color: #ffffff;
   border-bottom: 1px solid #ededee;
+  position: relative;
 }
 
 .settings-li-list__column {
@@ -70,6 +71,20 @@
 .settings-li-list__column span {
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+.li-list__new-noti {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 25px;
+  background-color: #808080;
+  color: #ffffff;
+  font-size: 0.8rem;
 }
 
 .settings-li-list__column .fa-star {
@@ -97,4 +112,52 @@
   border-radius: 5px;
   color: #ffffff;
   background-color: #3a79fe;
+}
+
+.settings-li-list__column .fa-whatsapp-square {
+  font-size: 1.65rem;
+  margin-right: 11px;
+  border-radius: 5px;
+  color: #4bd762;
+  background-color: #ffffff;
+}
+
+.settings-li-list__column .fa-sticky-note {
+  font-size: 0.85rem;
+  margin-right: 11px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ff3a2e;
+}
+.settings-li-list__column .fa-exchange-alt {
+  font-size: 0.75rem;
+  margin-right: 11px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #4bd762;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.settings-li-list__column .fa-info {
+  font-size: 0.7rem;
+  margin-right: 11px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #4ba0ff;
+}
+
+.settings-li-list__column .fa-heart {
+  font-size: 0.8rem;
+  margin-right: 11px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #fe2b54;
 }
