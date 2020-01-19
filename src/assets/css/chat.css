@@ -199,6 +199,8 @@
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   box-shadow: 0 0 2pt 1pt #d4d4d6;
+  -moz-box-shadow: 0 0 2pt 1pt #d4d4d6;
+  -webkit-box-shadow: 0 0 2pt 1pt #d4d4d6;
 }
 
 .chat__from-plus-icon-wrapper {

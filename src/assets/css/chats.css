@@ -129,6 +129,8 @@
 .chats__preview i,
 .fa-check-double {
   color: #007cfe;
+  text-decoration-color: #007cfe;
+  -webkit-text-fill-color: #007cfe;
 }
 
 .chats__prev-text {
