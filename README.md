@@ -8,16 +8,17 @@
 
 ### HTML & CSS
 
-- [X] Status
-- [X] Calls
-- [X] Calls - New call
+- [x] Status
+- [x] Calls
+- [x] Calls - New call
 - [ ] Calls - Edit call
-- [X] Chats
-- [X] Chats - chat
-- [X] Settings
+- [x] Chats
+- [x] Chats - chat
+- [x] Settings
+- [ ] Animation
 
 ### JavaScript
 
-- [X] Current Time
-- [X] Add Message
+- [x] Current Time
+- [x] Add Message
 - [ ] Calls - Edit call(Delete call)

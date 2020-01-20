@@ -1,9 +1,31 @@
+.body__chat {
+  margin-top: 82px;
+  background-color: #f7f7f7;
+}
+
+.chat__status {
+  position: fixed;
+  height: 16px;
+  top: 0px;
+  padding-bottom: 33px;
+  padding-top: 18px;
+  width: 100%;
+  background-color: #f7f7f7;
+  z-index: 4;
+}
+
 .header__chat {
+  z-index: 4;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #cbcacd;
   padding-bottom: 5px;
+  position: fixed;
+  height: 41px;
+  top: 51px;
+  background-color: #f7f7f7;
+  width: 100%;
 }
 
 .header__chat-column {
@@ -56,7 +78,7 @@
 .main__chat {
   background-image: url('../images/chat_background.jpg');
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main__chat-lists {
