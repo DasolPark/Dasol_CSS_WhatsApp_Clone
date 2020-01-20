@@ -1,6 +1,6 @@
 # WhatsApp Design Clone for responsive web design
 
-- URL: 👉https://dasolpark.github.io/Dasol_CSS_WhatsApp_Clone/
+- URL: 👉https://dasolpark.github.io/Dasol_CSS_WhatsApp_Clone/ (WhatsApp Clone is optimized for width:375, height:638)
 - HTML5
 - CSS3(Responsive Web Design)
 - Simple JavaScript
