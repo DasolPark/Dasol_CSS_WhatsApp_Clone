@@ -11,7 +11,7 @@
 - [x] Status
 - [x] Calls
 - [x] Calls - New call
-- [ ] Calls - Edit call
+- [x] Calls - Edit call
 - [x] Chats
 - [x] Chats - chat
 - [x] Settings
@@ -21,4 +21,4 @@
 
 - [x] Current Time
 - [x] Add Message
-- [ ] Calls - Edit call(Delete call)
+- [x] Calls - Edit call(Delete call)

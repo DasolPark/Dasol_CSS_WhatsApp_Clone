@@ -22,7 +22,7 @@
     </div>
     <header class="header">
       <div class="header__functions functions__allBlue">
-        <div class="header__column">Edit</div>
+        <div class="header__column" id="js-editDiv">Edit</div>
         <div class="header__column">
           <div class="header__options">
             <span class="header__option">All</span>
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="header__column">
-          <a href="calls_newCall.html" class="header__newCall">
+          <a href="calls_newCall.html" class="header__newCall" id="js-newToClearIcon">
             <i class="fas fa-phone-volume"></i>
           </a>
         </div>
@@ -46,7 +46,7 @@
     <main class="main__calls">
       <ul class="main__calls-lists">
         <li class="main__calls-list">
-          <div class="main__calls-list-column">
+          <div class="main__calls-list-column" id="js-listDiv">
             <i class="fas fa-user-circle avatar"></i>
             <div class="main__calls-text">
               <span class="main__calls-number">+82 10 1234 5678</span>
@@ -59,7 +59,7 @@
           <div class="main__calls-list-column">
             <div class="main__calls-date-info">
               <span>2020/01/01</span>
-              <i class="fas fa-info-circle"></i>
+              <i class="fas fa-info-circle" id="js-infoIcon"></i>
             </div>
           </div>
         </li>
@@ -249,5 +249,6 @@
       </ul>
     </nav>
     <script src="src/assets/js/currentTime.js"></script>
+    <script src="src/assets/js/callsEdit.js"></script>
   </body>
 </html>
