@@ -19,6 +19,8 @@ const onEditClick = () => {
   i.id = 'js-minusIcon';
   // jsList.childNodes[1].insertBefore(i, jsList.childNodes[1].firstChild);
   // jsListCol.appendChild(i);
+  jsListCol.parentNode.classList.remove('li-animation-out');
+  jsListCol.parentNode.classList.add('li-animation-in');
   jsListCol.insertBefore(i, jsListCol.firstChild);
   jsInfo.classList.add('calls-info-showing');
 
@@ -42,6 +44,9 @@ const onDoneClick = () => {
   jsEdit.textContent = 'Edit';
   jsClear.textContent = '';
   jsClear.href = 'calls_newCall.html';
+
+  jsListCol.parentNode.classList.remove('li-animation-in');
+  jsListCol.parentNode.classList.add('li-animation-out');
 
   const i = document.createElement('i');
   i.classList.add('fas');

@@ -66,14 +66,56 @@
 .main__calls-date-info i {
   font-size: 1.3rem;
   color: #007cfe;
+  animation: fadeInInfo 0.5s ease-in-out;
 }
 
 .main__calls-list-column .fa-minus-circle {
   margin-right: 10px;
   color: #ff3a30;
   font-size: 1.2rem;
+  animation: fadeInMinus 0.5s ease-in-out;
 }
 
 .calls-info-showing {
   display: none;
+}
+
+.li-animation-in {
+  animation: fadeInMinus 0.5s ease-in-out;
+}
+
+.li-animation-out {
+  animation: fadeOutLi 0.5s ease-in-out;
+}
+
+@keyframes fadeInMinus {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInInfo {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeOutLi {
+  from {
+    opacity: 0;
+    transform: none;
+  }
+  to {
+    opacity: 1;
+  }
 }

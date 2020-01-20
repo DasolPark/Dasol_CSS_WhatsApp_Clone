@@ -15,7 +15,7 @@
 - [x] Chats
 - [x] Chats - chat
 - [x] Settings
-- [ ] Animation
+- [x] Animation
 
 ### JavaScript
 
