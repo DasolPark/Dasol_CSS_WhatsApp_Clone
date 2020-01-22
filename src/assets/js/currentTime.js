@@ -12,5 +12,5 @@ const currentTime = () => {
 
 if (jsCurrentTime) {
   currentTime();
-  setTimeout(currentTime, 1000);
+  setInterval(currentTime, 1000);
 }
